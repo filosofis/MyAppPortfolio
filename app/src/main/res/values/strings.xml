@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">My App Portfolio</string>
     <string name="title_activity_main">My App Portfolio</string>
+    <string name="app_name">My App Portfolio</string>
     <string name="My_Apps">My Nanodegree Apps!</string>
     <string name="movies">POPULAR MOVIES</string>
     <string name="hawk">STOCK HAWK</string>
