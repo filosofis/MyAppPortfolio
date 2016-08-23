@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.oscar.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/My_Apps"
+        android:id="@+id/textView"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movies"
+        android:id="@+id/button.movies"
+        android:layout_below="@+id/textView"
+        android:onClick="movies"
+        android:background="@color/colorUdacity"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hawk"
+        android:id="@+id/button.hawk"
+        android:layout_below="@+id/button.movies"
+        android:onClick="hawk"
+        android:background="@color/colorUdacity"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bigger"
+        android:id="@+id/button.bigger"
+        android:layout_below="@+id/button.hawk"
+        android:onClick="bigger"
+        android:background="@color/colorUdacity"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/material"
+        android:id="@+id/button.material"
+        android:layout_below="@+id/button.bigger"
+        android:onClick="material"
+        android:background="@color/colorUdacity"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ubiquitous"
+        android:id="@+id/button.ubiquitous"
+        android:layout_below="@+id/button.material"
+        android:onClick="ubiquitous"
+        android:background="@color/colorUdacity"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/button.capstone"
+        android:layout_below="@+id/button.ubiquitous"
+        android:onClick="capstone"
+        android:background="@color/colorUdacity"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+</RelativeLayout>
